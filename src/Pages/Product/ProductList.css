@@ -1,0 +1,37 @@
+.table thead th {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+.image-container {
+  width: 100px;
+  height: 100px;
+}
+
+/* addProduct.css */
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.alert {
+  margin-bottom: 20px;
+}

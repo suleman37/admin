@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.bo{
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}

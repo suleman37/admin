@@ -1,0 +1,43 @@
+.sidebar-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+
+.sidebar-navbar {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: #337ab7;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.sidebar-navbar.nav-link.active {
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 5px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.black-text {
+  color: black !important;
+}

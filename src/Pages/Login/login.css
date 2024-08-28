@@ -1,0 +1,24 @@
+/* Login.css */
+
+.logo {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .min-vh-100 {
+    min-height: 100vh;
+  }
+  
+  .text-center {
+    text-align: center;
+  }  
+
+  .d-flex{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .green{
+    color: #38a89d;
+  }
