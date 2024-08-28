@@ -61,7 +61,7 @@ const Sidebar = () => {
   return (
     <div style={{ width: 250, height: "100vh", backgroundColor: "#f4f4f4" }}>
       <List>
-        <ListItem button component={Link} to="/dashboard">
+        <ListItem button component={Link} to="/">
           <HomeIcon />
           <ListItemText primary="Dashboard" />
         </ListItem>
